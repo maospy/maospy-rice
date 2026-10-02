@@ -79,6 +79,10 @@ echo "[9/9] Iconos..."
 rm -f "$STATE_FILE"
 
 echo
+echo "[10/10] Wallpaper..."
+"$BASE_DIR/modules/wallpaper.sh"
+
+echo
 echo "======================================"
 echo "       MAOSPY RICE INSTALADO"
 echo "======================================"
