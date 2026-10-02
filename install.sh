@@ -13,11 +13,11 @@ echo "        MAOSPY RICE INSTALLER"
 echo "======================================"
 echo
 
-echo "[1/7] Paquetes base..."
+echo "[1/9] Paquetes base..."
 "$BASE_DIR/modules/packages.sh"
 
 echo
-echo "[2/7] Extensiones GNOME..."
+echo "[2/9] Extensiones GNOME..."
 
 BEFORE="$(
     gnome-extensions list 2>/dev/null | sort || true
@@ -49,24 +49,32 @@ if [[ "$BEFORE" != "$AFTER" && ! -f "$STATE_FILE" ]]; then
 fi
 
 echo
-echo "[3/7] Dash to Dock..."
+echo "[3/9] Dash to Dock..."
 "$BASE_DIR/modules/dock.sh"
 
 echo
-echo "[4/7] Tiling Shell..."
+echo "[4/9] Tiling Shell..."
 "$BASE_DIR/modules/tiling.sh"
 
 echo
-echo "[5/7] Blur my Shell..."
+echo "[5/9] Blur my Shell..."
 "$BASE_DIR/modules/blur.sh"
 
 echo
-echo "[6/7] Apariencia..."
+echo "[6/9] Apariencia base..."
 "$BASE_DIR/modules/theme.sh"
 
 echo
-echo "[7/7] GNOME..."
+echo "[7/9] GNOME..."
 "$BASE_DIR/modules/gnome.sh"
+
+echo
+echo "[8/9] Identidad visual..."
+"$BASE_DIR/modules/visual.sh"
+
+echo
+echo "[9/9] Iconos..."
+"$BASE_DIR/modules/icons.sh"
 
 rm -f "$STATE_FILE"
 
