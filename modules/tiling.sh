@@ -54,6 +54,15 @@ gsettings set "$SCHEMA" override-window-menu true
 # Navegación
 gsettings set "$SCHEMA" enable-wraparound-focus true
 
+# Navegación entre ventanas estilo tiling WM
+gsettings set "$SCHEMA" focus-window-left "['<Super>h']"
+gsettings set "$SCHEMA" focus-window-down "['<Super>j']"
+gsettings set "$SCHEMA" focus-window-up "['<Super>k']"
+gsettings set "$SCHEMA" focus-window-right "['<Super>l']"
+
+gsettings set "$SCHEMA" enable-directional-focus-tiled-only true
+
+
 # Apariencia
 gsettings set "$SCHEMA" enable-smart-window-border-radius true
 gsettings set "$SCHEMA" enable-window-border false
