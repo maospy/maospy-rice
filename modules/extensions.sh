@@ -18,6 +18,8 @@ declare -A EXTENSIONS
 EXTENSIONS["tilingshell@ferrarodomenico.com"]="7065"
 EXTENSIONS["blur-my-shell@aunetx"]="3193"
 EXTENSIONS["dash-to-dock@micxgx.gmail.com"]="307"
+EXTENSIONS["user-theme@gnome-shell-extensions.gcampax.github.com"]="19"
+EXTENSIONS["rounded-window-corners@fxgn"]="7048"
 
 TMP_DIR="$(mktemp -d)"
 
