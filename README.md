@@ -68,16 +68,13 @@ chmod +x install.sh
 ./install.sh
 ```
 
-git clone https://github.com/maospy/maospy-rice.git
-cd maospy-rice
-chmod +x install.sh
-./install.sh
-
 ## Desinstalación
 
 Para desinstalar la personalización de Maospy Rice se puede ejecutar:
 
+```bash
 ./uninstall.sh
+```
 
 El desinstalador elimina la personalización de Maospy Rice, pero no elimina automáticamente:
 
