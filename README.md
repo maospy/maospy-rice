@@ -24,15 +24,19 @@ Personalización de Fedora Workstation 44 + GNOME 50 orientada a productividad, 
 
 ## Atajos tiling
 
-Super + Flecha izquierda: mover/encajar izquierda
-Super + Flecha derecha: mover/encajar derecha
-Super + Flecha arriba: mover/encajar arriba
-Super + Flecha abajo: mover/encajar abajo
+### Mover / encajar ventanas
 
-Super + H: foco izquierda
-Super + J: foco abajo
-Super + K: foco arriba
-Super + L: foco derecha
+- `Super + ←` : mover/encajar izquierda
+- `Super + →` : mover/encajar derecha
+- `Super + ↑` : mover/encajar arriba
+- `Super + ↓` : mover/encajar abajo
+
+### Cambiar foco
+
+- `Super + H` : foco izquierda
+- `Super + J` : foco abajo
+- `Super + K` : foco arriba
+- `Super + L` : foco derecha
 
 ## Aplicaciones opcionales
 
