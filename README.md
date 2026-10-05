@@ -60,7 +60,7 @@ Incluye:
 
 ## Instalación
 
-git clone https://github.com/TU_USUARIO/maospy-rice.git
+git clone https://github.com/maospy/maospy-rice.git
 cd maospy-rice
 chmod +x install.sh
 ./install.sh
